@@ -56,6 +56,7 @@ Extracted from input and must be fully executed to generate output.
 The function runs sequentially on a single core, and its previous output is a periodic record. The output can then be recomputed and verified externally, and the Zeus network parallelizes the computer by examining each sequence segment on a separate core.
 The state of the function can be entered by appending data (or a hash of some data).
 State records: indexes and data appended to the sequence provide timestamps
+
 This guarantees that the data was created sometime before the next hash, in the sequence. This design of the Zeus network also supports horizontal scaling, as multiple generators can synchronize their states into each other's sequence by mixing the Zeus networks.
 The Zeus network is designed to work as follows. With a cryptographic hash function, whose output cannot be predicted without running the function (eg sha256, ripemd, etc.), run the function from some random starting value and take its output and pass it as input to the same function again.
 Zeus Network will record the number of times the function is called and output each call. The starting random value chosen can be any string, for example: the top stories of the day in the New York Times.
