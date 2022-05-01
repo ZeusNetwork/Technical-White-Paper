@@ -17,11 +17,11 @@ order. It is expected that every node in the network will be able to rely on the
 𝟮 𝗢𝘂𝘁𝗹𝗶𝗻𝗲
 The rest of the Zeus network is organized as follows.
 The overall system is designed as
-Described in Section 3..........................Describes an in-depth description of historical proofs
-Described in Section 4 ................................. An in-depth description of the proposed Proof-of-Stake consensus
-Described in Section 5..........................​​ In-depth description of the assumptions made by the algorithm
-Described in Section 6.................................................​​ System Architecture and Fast Proof of Replication
-Described in Section 7................................Performance constraints on high-performance GPUs
+Described in Section 3........Describes an in-depth description of historical proofs
+Described in Section 4 .......An in-depth description of the proposed Proof-of-Stake consensus
+Described in Section 5........In-depth description of the assumptions made by the algorithm
+Described in Section 6........System Architecture and Fast Proof of Replication
+Described in Section 7........Performance constraints on high-performance GPUs
 
 𝟯 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗗𝗲𝘀𝗶𝗴𝗻
 As shown in Figure 1, at any given time, system nodes are designated as
@@ -449,12 +449,12 @@ Steady-state random access to this table is at 1.1 * 107 writes or reads per sec
 A smart contract is a general form of transaction. These are programs that run on each node and modify state. This design leverages the extended Berkeley Packet Filter bytecode to be as fast and easy to analyze as the JIT bytecode. As a smart contract language,
 One of the main advantages of the Zeus network is zero-cost external functional interfaces. Intrinsics or functions implemented directly on the platform are
 Can be called by the program. Calling an intrinsic suspends the program and dispatches the intrinsic on a high-performance server. Internal functions are batched together and executed in parallel on the GPU.
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/104710488/166136159-756bf4f6-2eee-4aa9-b89e-7cbcc028603a.png)
 
 In the following example, two different user programs call the same internal function.
 Each program is suspended until the inner function processing execution is complete！
 
-
+𝙁𝙞𝙣𝙖𝙡𝙡𝙮: 𝙕𝙚𝙪𝙨 𝙉𝙚𝙩𝙬𝙤𝙧𝙠 𝙩𝙝𝙖𝙣𝙠𝙨 𝙚𝙫𝙚𝙧𝙮 𝙚𝙭𝙘𝙚𝙡𝙡𝙚𝙣𝙩 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 𝙬𝙝𝙤 𝙝𝙖𝙨 𝙘𝙤𝙣𝙩𝙧𝙞𝙗𝙪𝙩𝙚𝙙 𝙩𝙤 𝙤𝙪𝙧 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩
 
 
 
