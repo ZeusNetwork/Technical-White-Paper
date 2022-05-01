@@ -17,13 +17,19 @@ order. It is expected that every node in the network will be able to rely on the
 𝟮 𝗢𝘂𝘁𝗹𝗶𝗻𝗲
 The rest of the Zeus network is organized as follows.
 The overall system is designed as
+
 Described in Section 3........Describes an in-depth description of historical proofs
+
 Described in Section 4 .......An in-depth description of the proposed Proof-of-Stake consensus
+
 Described in Section 5........In-depth description of the assumptions made by the algorithm
+
 Described in Section 6........System Architecture and Fast Proof of Replication
+
 Described in Section 7........Performance constraints on high-performance GPUs
 
 𝟯 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗗𝗲𝘀𝗶𝗴𝗻
+
 As shown in Figure 1, at any given time, system nodes are designated as
 The leader generates the historical proof sequence, providing the network global
 Read consistency and verifiable elapse of time. leader sequence user
