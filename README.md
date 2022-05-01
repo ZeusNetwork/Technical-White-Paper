@@ -1,2 +1,2 @@
 # Technical-White-Paper
-The technical principle and underlying architecture guide of Zeus network
+Zeus网络技术原理及底层架构指南
