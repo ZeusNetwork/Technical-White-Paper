@@ -462,6 +462,7 @@ In the following example, two different user programs call the same internal fun
 Each program is suspended until the inner function processing execution is complete！
 
 𝙁𝙞𝙣𝙖𝙡𝙡𝙮: 𝙕𝙚𝙪𝙨 𝙉𝙚𝙩𝙬𝙤𝙧𝙠 𝙩𝙝𝙖𝙣𝙠𝙨 𝙚𝙫𝙚𝙧𝙮 𝙚𝙭𝙘𝙚𝙡𝙡𝙚𝙣𝙩 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 𝙬𝙝𝙤 𝙝𝙖𝙨 𝙘𝙤𝙣𝙩𝙧𝙞𝙗𝙪𝙩𝙚𝙙 𝙩𝙤 𝙤𝙪𝙧 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩
+Z 2022
 
 
 
